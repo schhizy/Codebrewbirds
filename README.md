@@ -16,7 +16,7 @@
 </table>
 
 ---------------------------------------------------------------------------------------------------------------------------------------------------
-## About our '4Paw'   <img src="https://cdn4.iconfinder.com/data/icons/social-messaging-productivity-4/128/paw-print-512.png" width="40" height="40"/>
+## About our '4Paw'   <img src="https://cdn4.iconfinder.com/data/icons/social-messaging-productivity-4/128/paw-print-512.png" width="30" height="30"/>
 
 <img src="https://thumbs.gfycat.com/ChubbyThankfulJohndory-max-1mb.gif" /> 
 <br>
@@ -73,10 +73,10 @@
 This site is a collaboration project of :mortar_board::mortar_board: Mrinal, Khusi, Snehal and Alka, the students of IIIT Allahabad. We would be happy to help you in any way. Please feel free to reach out to us. We would love to connect with you.
 
 
-* [![Linkedin Badge](https://deswalsh.com/wp-content/uploads/2016/06/LinkedIn-badge.jpg)]()<span> Mrinal</span>
-* [![Linkedin Badge](https://deswalsh.com/wp-content/uploads/2016/06/LinkedIn-badge.jpg)]()<span> Khusi</span>
-* [![Linkedin Badge](https://deswalsh.com/wp-content/uploads/2016/06/LinkedIn-badge.jpg)]()<span> Snehal</span>
-* [![Linkedin Badge](https://deswalsh.com/wp-content/uploads/2016/06/LinkedIn-badge.jpg)](https://www.linkedin.com/in/alka-trivedi/)<span> Alka</span>
+* [![Linkedin Badge]()]()<span> Mrinal</span>
+* [![Linkedin Badge]()]()<span> Khusi</span>
+* [![Linkedin Badge]()]()<span> Snehal</span>
+* [![Linkedin Badge]()]()<span> Alka</span>
 
 
 
