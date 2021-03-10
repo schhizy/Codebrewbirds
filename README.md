@@ -1,5 +1,5 @@
 
-#  <img src="https://cdn4.iconfinder.com/data/icons/social-messaging-productivity-4/128/paw-print-512.png width="50" height="50"/> 4Paw <img src="https://cdn4.iconfinder.com/data/icons/social-messaging-productivity-4/128/paw-print-512.png" width="50" height="50"/>
+#  <img src="https://cdn4.iconfinder.com/data/icons/social-messaging-productivity-4/128/paw-print-512.png" width="50" height="50"/> 4Paw <img src="https://cdn4.iconfinder.com/data/icons/social-messaging-productivity-4/128/paw-print-512.png" width="50" height="50"/>
 
 
 ---------------------------------------------------------------------------------------------------------------------------------------------------
@@ -70,7 +70,7 @@
 ## Contact Us
 
 
-This site is a collaboration project of :mortar_board::mortar_board: JYOTIKA, VIDUSHI, MEDHA and AARUSHI, the students of IIIT Allahabad. We would be happy to help you in any way. Please feel free to reach out to us on any of the social media platform or mail for any kind of query. Details of all are given below:-
+This site is a collaboration project of :mortar_board::mortar_board: Mrinal, Khusi, Snehal and Alka, the students of IIIT Allahabad. We would be happy to help you in any way. Please feel free to reach out to us. We would love to connect with you.
 
 
 * [![Linkedin Badge](https://deswalsh.com/wp-content/uploads/2016/06/LinkedIn-badge.jpg)]()<span> Mrinal</span>
