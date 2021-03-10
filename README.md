@@ -1,5 +1,5 @@
 
-#  <img src="https://cdn4.iconfinder.com/data/icons/social-messaging-productivity-4/128/paw-print-512.png" width="50" height="50"/> 4Paw <img src="https://cdn4.iconfinder.com/data/icons/social-messaging-productivity-4/128/paw-print-512.png" width="50" height="50"/>
+#  <img src="https://cdn4.iconfinder.com/data/icons/social-messaging-productivity-4/128/paw-print-512.png" width="30" height="30"/> 4Paw <img src="https://cdn4.iconfinder.com/data/icons/social-messaging-productivity-4/128/paw-print-512.png" width="30" height="30"/>
 
 
 ---------------------------------------------------------------------------------------------------------------------------------------------------
@@ -16,7 +16,7 @@
 </table>
 
 ---------------------------------------------------------------------------------------------------------------------------------------------------
-## About our '4Paw'   <img src="https://cdn4.iconfinder.com/data/icons/social-messaging-productivity-4/128/paw-print-512.png" width="50" height="50"/>
+## About our '4Paw'   <img src="https://cdn4.iconfinder.com/data/icons/social-messaging-productivity-4/128/paw-print-512.png" width="40" height="40"/>
 
 <img src="https://thumbs.gfycat.com/ChubbyThankfulJohndory-max-1mb.gif" /> 
 <br>
