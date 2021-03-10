@@ -74,7 +74,7 @@ This site is a collaboration project of :mortar_board::mortar_board: Mrinal, Khu
 
 
 * [![Linkedin Badge]()]()<span> Mrinal</span>
-* [![Linkedin Badge]()]()<span> Khusi</span>
+* [![Linkedin Badge]()]()<span> Khushi</span>
 * [![Linkedin Badge]()]()<span> Snehal</span>
 * [![Linkedin Badge]()]()<span> Alka</span>
 
