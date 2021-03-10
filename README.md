@@ -59,7 +59,7 @@
   <tr>
      <td align="center"><a href="https://github.com/thelavenderhue"><img src="https://avatars.githubusercontent.com/u/58396051?s=400&u=fcffebd669e6fd9b0eb6c869d6a5379e974486f5&v=4" width="200px;" alt=""/><br /><sub><b>Mrinal</b></sub></a><br /></td>
      <td align="center"><a href="https://github.com/schhizy"><img src="https://avatars.githubusercontent.com/u/62063109?s=400&u=824224c4c3606049e34232b4acc9d4171b2c8e14&v=4" width="200px;" alt=""/><br /><sub><b>Khusi</b></sub></a><br /></td>
-    <td align="center"><a href="https://github.com/snehal2841"><img src="https://avatars1.githubusercontent.com/u/58389098?s=400&u=f3f311649ce839abd0ea3fd57674a818030b5549&v=4" width="200px;" alt=""/><br /><sub><b>Snehal</b></sub></a><br /></td>
+    <td align="center"><a href="https://github.com/snehal2841"><img src="https://avatars.githubusercontent.com/u/58397197?s=400&u=2235e19fae70bb10e7fff4dbbb7d2ee63f73cdd9&v=4" width="200px;" alt=""/><br /><sub><b>Snehal</b></sub></a><br /></td>
      <td align="center"><a href="https://github.com/alkatrivedi"><img src="https://avatars.githubusercontent.com/u/58396306?s=400&u=b7b05a39d70b99d96a6cf7e03edeb8f11aef112c&v=4" width="200px;" alt=""/><br /><sub><b>Alka</b></sub></a><br /></td>
  
  </tr>
