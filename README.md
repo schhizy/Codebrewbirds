@@ -70,11 +70,11 @@
 ## Contact Us
 
 
-This site is a collaboration project of :mortar_board::mortar_board: Mrinal, Khushi, Snehal and Alka, the students of IIIT Allahabad. We would be happy to help you in any way. Please feel free to reach out to us. We would love to connect with you.
+This site is a collaboration project of :mortar_board::mortar_board: Mrinal, Khusi, Snehal and Alka, the students of IIIT Allahabad. We would be happy to help you in any way. Please feel free to reach out to us. We would love to connect with you.
 
 
 * [![Linkedin Badge]()]()<span> Mrinal</span>
-* [![Linkedin Badge]()]()<span> Khushi</span>
+* [![Linkedin Badge]()]()<span> Khusi</span>
 * [![Linkedin Badge]()]()<span> Snehal</span>
 * [![Linkedin Badge]()]()<span> Alka</span>
 
