@@ -4,6 +4,25 @@
 
 ---------------------------------------------------------------------------------------------------------------------------------------------------
 
+## Run Project
+
+After fork and clone the project:
+
+1. Run command on terminal
+```
+npm install
+```
+2. Make .env file and set
+```
+MONGODB_URI = <yours mongodb url>
+```
+3. Now run command
+```
+npm start
+```
+
+----------------------------------------------------------------------------------------------------------------------------------------------------
+
 ### :rocket::rocket: [Click here to visit 4Paw]()
 
 
