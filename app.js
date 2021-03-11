@@ -32,7 +32,7 @@ app.get("/findHost", (req, res) => {
     res.render("findHost");
 });
 
-app.get("/becomeHost", (req, res) => {
+app.get("/becomehost", (req, res) => {
     res.render("becomeHost");
 });
 
