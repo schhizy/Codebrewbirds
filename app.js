@@ -28,6 +28,30 @@ app.get("/", (req, res) => {
     res.render("home");
 });
 
+app.get("/findHost", (req, res) => {
+    res.render("findHost");
+});
+
+app.get("/becomeHost", (req, res) => {
+    res.render("becomeHost");
+});
+
+app.get("/donate", (req, res) => {
+    res.render("donate");
+}); 
+
+app.get("/login", (req, res) => {
+    res.render("login");
+});
+
+app.get("/signup", (req, res) => {
+    res.render("signUp");
+});
+
+app.get("/contacts", (req, res) => {
+    res.render("contacts");
+});
+
 let port = process.env.PORT || 3000
 app.listen(port, process.env.IP, () => {
     console.log("showing on port 3000.");
