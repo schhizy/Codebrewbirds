@@ -38,6 +38,10 @@ app.get("/help", (req, res) => {
   res.render("help");
 });
 
+app.get("/help", (req, res) => {
+    res.render("help");
+}); 
+
 app.get("/donate", (req, res) => {
   res.render("donate");
 });
