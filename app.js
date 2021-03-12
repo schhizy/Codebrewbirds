@@ -1,58 +1,60 @@
 const express = require("express"),
-    mongoose = require("mongoose"),
-    methodOverride = require("method-override"),
-    bodyParser = require("body-parser");
+  mongoose = require("mongoose"),
+  methodOverride = require("method-override"),
+  bodyParser = require("body-parser");
 
 const app = express();
-require('dotenv').config();
+require("dotenv").config();
 
 app.use(bodyParser.urlencoded({ extended: true }));
 
+mongoose.set("useUnifiedTopology", true);
+const url = process.env.MONGODB_URI || 3000;
 
-mongoose.set('useUnifiedTopology', true);
-const url = process.env.MONGODB_URI || 3000
-
-mongoose.connect(url, {
+mongoose.connect(
+  url,
+  {
     useNewUrlParser: true,
     useCreateIndex: true,
-    useFindAndModify: false
-}, () => {
+    useFindAndModify: false,
+  },
+  () => {
     console.log("Connected to database.");
-});
+  }
+);
 
 app.set("view engine", "ejs");
 app.use(express.static(__dirname + "/public"));
 
-
 app.get("/", (req, res) => {
-    res.render("home");
+  res.render("home");
 });
 
-app.get("/findHost", (req, res) => {
-    res.render("findHost");
+app.get("/joinUs", (req, res) => {
+  res.render("joinUs");
 });
 
-app.get("/becomehost", (req, res) => {
-    res.render("becomeHost");
+app.get("/help", (req, res) => {
+  res.render("help");
 });
 
 app.get("/donate", (req, res) => {
-    res.render("donate");
-}); 
+  res.render("donate");
+});
 
 app.get("/login", (req, res) => {
-    res.render("login");
+  res.render("login");
 });
 
 app.get("/signup", (req, res) => {
-    res.render("signUp");
+  res.render("signUp");
 });
 
 app.get("/contacts", (req, res) => {
-    res.render("contacts");
+  res.render("contacts");
 });
 
-let port = process.env.PORT || 3000
+let port = process.env.PORT || 3000;
 app.listen(port, process.env.IP, () => {
-    console.log("showing on port 3000.");
+  console.log("showing on port 3000.");
 });

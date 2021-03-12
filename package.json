@@ -4,7 +4,8 @@
   "description": "## Collaborators  * Sampada Kathar    - IIT2019007  * Asha Jyothi Donga - IIT2019006  * Alka Trivedi      - IIT2019055",
   "main": "app.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node app.js"
   },
   "repository": {
     "type": "git",
