@@ -16,22 +16,23 @@
             <div class="col-md-8 col-10 my-5 content">
               <h3 class="welcome">Welcome to 4paw</h3>
               <h6 class="msg-info">Signup</h6>
-              <form>
+              <form action="/signup" method="post">
                 <div class="form-row">
                   <div class="form-group col-md-6">
                     <label for="inputEmail4">Email</label>
                     <input
                       type="email"
+                      name="email"
                       class="form-control"
                       id="inputEmail4"
                       placeholder="Email"
-                      required
-                    />
+                      required/>
                   </div>
                   <div class="form-group col-md-6">
                     <label for="inputPassword4">Password</label>
                     <input
                       type="password"
+                      name="password"
                       class="form-control"
                       id="inputPassword4"
                       placeholder="Password"
@@ -40,22 +41,24 @@
                   </div>
                 </div>
                 <div class="form-group">
-                  <label for="firstName">First Name</label>
+                  <label for="firstName">Full Name</label>
                   <input
                     type="text"
+                    name="fname"
                     class="form-control"
                     id="firstName"
-                    placeholder="Firstname"
+                    placeholder="Full Name"
                     required
                   />
                 </div>
                 <div class="form-group">
-                  <label for="lastName">Last Name</label>
+                  <label for="lastName">Username</label>
                   <input
                     type="text"
+                    name="username"
                     class="form-control"
                     id="lastName"
-                    placeholder="Lastname"
+                    placeholder="Username"
                     required
                   />
                 </div>
@@ -64,6 +67,7 @@
                   <label for="inputAddress">Residential Address</label>
                   <input
                     type="text"
+                    name="address"
                     class="form-control"
                     id="inputAddress"
                     placeholder="1234 Main St"
@@ -75,6 +79,7 @@
                     <label for="inputCity">City</label>
                     <input
                       type="text"
+                      name="city"
                       class="form-control"
                       id="inputCity"
                       placeholder="City"
@@ -85,6 +90,7 @@
                     <label for="validationCustom04">State</label>
                     <input
                       type="text"
+                      name="state"
                       class="form-control"
                       id="validationCustom04"
                       placeholder="State"
@@ -101,7 +107,7 @@
                 </div>
                 <div class="form-group"></div>
                 <button type="submit" class="btn btn-primary submit-button">
-                  Sign up
+                  Sign Up
                 </button>
               </form>
             </div>
