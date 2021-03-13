@@ -31,6 +31,7 @@ require('./server/database/database')();
 
 app.set("view engine", "ejs");
 app.use(express.static(__dirname + "/public"));
+app.use("/public/images/", express.static("./public/images"));
 
 app.get("/", (req, res) => {
   res.render("home");
@@ -102,6 +103,7 @@ app.post("/uploadmultiple", store.array("images", 12), (req, res, next) => {
 app.get("/adopt", (req, res) => {
   res.render("adopt");
 });
+
 
 app.get("/donate", (req, res) => {
   res.render("donate");
