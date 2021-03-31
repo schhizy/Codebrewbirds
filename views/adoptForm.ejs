@@ -1,0 +1,66 @@
+<%- include('./partials/header') %>
+<title>4Paw | Adopt Form</title>
+
+<link rel="stylesheet" href="/stylesheets/adoptForm.css">
+
+</head>
+<body>
+<div class='signup-container'>
+    <div class='left-container'>
+      <h1>
+        <i class='fas fa-paw'></i>
+        4Paw
+      </h1>
+      <div class='puppy'>
+        <img src='https://s3-us-west-2.amazonaws.com/s.cdpn.io/38816/image-from-rawpixel-id-542207-jpeg.png'>
+      </div>
+    </div>
+    <div class='right-container'>
+      <header>
+        <h1>Yay, puppies! Ensure your pup gets the best care!</h1>
+        <form action="/findHost" method="POST">
+          <div class='set'>
+            <div class='pets-name'>
+              <label for='pets-name'>Name</label>
+              <input id='pets-name' name="name" placeholder="Pet's name" type='text'>
+            </div>
+  
+          </div>
+          <div class='set'>
+            <div class='pets-breed'>
+              <label for='pets-breed'>Breed</label>
+              <input id='pets-breed' name="breed" placeholder="Pet's breed" type='text'>
+            </div>
+            <div class='pets-photo'>
+              <button id='pets-upload'>
+                <a><i class='fas fa-camera-retro'></i></a>
+              </button>
+              <label for='pets-upload'>Upload a photo</label>
+            </div>
+            
+          </div>
+          <div class='set'>
+              <div class='pets-birthday'>
+                  <label for='pets-birthday'>Location</label>
+                  <input id='pets-birthday' name="location" placeholder='Location' type='text'>
+                </div>
+            
+          </div>
+          <div class='set'>
+            <div class='pets-breed'>
+              <label for='pets-breed'>Phone</label>
+              <input id='pets-breed' name="phonenum" placeholder="+91-xxxxxxxxxx" type='text'>
+            </div>
+            
+          </div>
+        </form>
+      </header>
+      <footer>
+        <div class='set'>
+          <a href="/adopt"><button type="submit" id='next' class="ml-auto">Next</button></a>
+        </div>
+      </footer>
+    </div>
+  </div>
+
+<%- include('./partials/footer') %>
