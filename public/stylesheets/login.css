@@ -43,7 +43,7 @@ button:focus {
 }
 
 .card0 {
-  height: 110vh;
+  height: 100vh;
   box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
 }
 
@@ -55,7 +55,7 @@ button:focus {
 .card1 {
   width: 50%;
   /* padding: 40px 30px 10px 30px; */
-  height: 110vh;
+  height: 100vh;
 }
 
 .card2 {
@@ -63,7 +63,7 @@ button:focus {
   background-image: url("../images/login.png");
   background-size: cover;
   background-position: center;
-  height: 110vh;
+  height: 100vh;
 }
 
 #logo {

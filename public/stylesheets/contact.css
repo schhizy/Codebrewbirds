@@ -1,0 +1,45 @@
+.contact {
+  background-image: url("../images/contact-bg.png");
+  width: 100%;
+  height: 91vh;
+  position: relative;
+  background-size: cover;
+  margin: 0;
+  font-family: "Poppins", sans-serif;
+}
+
+body {
+  height: 100%;
+}
+
+.contact-form {
+  padding: 15vh 20px;
+}
+
+.form-row {
+  margin: 20px 0;
+}
+
+.contact-doggo {
+  width: 100%;
+  height: 90%;
+  margin: 50px 0 0 80px;
+}
+
+.text {
+  font-size: 50px;
+  color: #42b7df;
+}
+
+.submit-button {
+  background: #031e2d !important;
+  border-radius: 6px;
+  width: 10vw;
+  height: 50px;
+  margin-left: 5px;
+}
+
+.submit-button:hover {
+  color: #fff;
+  background-image: linear-gradient(to right, #36d4ff, #00235e) !important;
+}

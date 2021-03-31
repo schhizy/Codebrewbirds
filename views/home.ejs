@@ -1,15 +1,13 @@
 <%- include('./partials/header') %>
+<title>4Paw</title>
 
 <link rel="stylesheet" href="/stylesheets/home.css">
+<link rel="preconnect" href="https://fonts.gstatic.com">
+<link rel="preconnect" href="https://fonts.gstatic.com">
+<link href="https://fonts.googleapis.com/css2?family=Roboto+Slab:wght@600&display=swap" rel="stylesheet">
+<script src="https://unpkg.com/@lottiefiles/lottie-player@latest/dist/lottie-player.js"></script>
 </head>
 <body>
-<!-- <header>
-        <div class="container-fluid"></div>
-        <div class="col-lg-6">
-          <div style="margin-top: 130px;"></div>
-          <img src="https://www.bowwow.com.au/images/fb-pets.png" class="img-responsive">
-        </div>
-      </header> -->
 
       <header class="header1">
         <div class="container">
@@ -17,13 +15,17 @@
                 <div class="row">
                     <div class="col-lg-6">
                         <div style="margin-top: 230px;"></div>
-                        <h1>Our perfect companions never have fewer than four feet...</h1>
-                        <p>Search below to find the perfect companion for your home and family. Thank you for wanting to adopt, <b>4PAW</b> will help you every step of the way.</p>
+                        <h1>
+                          <span>
+                          Everyone
+                          </span>
+                          <br>needs a home.</h1>
+                        <p>These animals need your support. A countless number of stray animals die everyday due to hunger or sickness. With your help we will reach out to more stray animals and provide them with food, shelter and other needs. After all everyone deserve to be loved.</p>
                         <div class="go-about"></div>
                     </div>
                     <div class="col-lg-6">
                         <div style="margin-top: 130px;"></div>
-                        <img src="https://i1.wp.com/freepngimages.com/wp-content/uploads/2015/08/labrador-puppies.png?fit=469%2C306" class="img-responsive">
+                       
                     </div>
                 </div>
             </div>
@@ -42,61 +44,64 @@
             </div>
             <!-- About Section Content-->
             <div class="row">
-                <div class="col-lg-4 ml-auto"><p class="lead">Adopting a animal, dog or cat, is not something to be undertaken lightly. Cats can live as long as 15 years and dogs upto 20 years. We are a nonprofit, no-kill animal shelter that houses and cares for hundreds of adoptable pets.</p></div>
-                <div class="col-lg-4 mr-auto"><p class="lead">We want to ensure that any animals it places for adoption go to people who will provide them with an appropriate, clean, safe, family environment, will feed them properly, take care of them when they are sick, and will – above all – give them love until the end of their days.</p></div>
+                <div class="col-lg-4 ml-auto"><p class="lead">According to an estimate done in 2018, the population of stray dogs alone in India is around 30–35 million.
+The ongoing lockdown is wreaking havoc on animals and birds that have come to depend on human activity for their subsistence.
+Our soul motive is to connect the people who want to do something and contribute in solving this significant yet much overlooked problem of homeless animals in our society. 
+</p></div>
+                <div class="col-lg-4 mr-auto"><p class="lead">We want to ensure that these animals after adoption go to people who will provide them with an appropriate, clean & safe environment. Our aim is to give shelter to millions of such animals who are often overlooked and live in oblivion. We believe that our and your collective efforts will give these beautiful creatures all the love and care they deserve.</p></div>
             </div>
         </div>
     </section>
 
+    <!-- ICONS GRID -->
+    <section class="features-icons text-center">
+        <div class="container">
+          <div class="row">
+            <div class="col-lg-6 cardss">
+              <div class="features-icons-item mx-auto mb-5 mb-lg-0 mb-lg-3">
+                <div class="features-icons-icon d-flex">
+                  <i class="icon-screen-desktop m-auto text-primary"></i>
+                </div>
+                <a href="/adopt"><button class="btn btn-success">Adopt Pet</button></a>
+                <p class="lead mb-0">Click here if you want to adopt a pet. <br>Browse through our gallery to choose your favourite one.</p>
+              </div>
+            </div>
+            <div class="col-lg-6 cardss">
+              <div class="features-icons-item mx-auto mb-5 mb-lg-0 mb-lg-3">
+                <div class="features-icons-icon d-flex">
+                  <i class="icon-layers m-auto text-primary"></i>
+                </div>
+                <a href="/findhost"><button class="btn btn-success">Find Host</button></a>
+                <p class="lead mb-0">Click here if you want to put a pet for adoption. <br>Find someone suitable to take care of you pet.</p>
+              </div>
+            </div>
+            <!-- <div class="col-lg-4">
+              <div class="features-icons-item mx-auto mb-0 mb-lg-3">
+                <div class="features-icons-icon d-flex">
+                  <i class="icon-check m-auto text-primary"></i>
+                </div>
+                <h3>Easy to Use</h3>
+                <p class="lead mb-0">Ready to use with your own content, or customize the source files!</p>
+              </div>
+            </div> -->
+          </div>
+        </div>
+      </section>
+
 
     <div class="animation">
-        <img class="img-fluid" src="https://cdn.dribbble.com/users/1731080/screenshots/6171472/main_cycle.gif">
+      <lottie-player src="https://assets5.lottiefiles.com/packages/lf20_syqnfe7c.json"  background="transparent" speed="1"  style="justify-content: center;" loop  autoplay></lottie-player>
     </div>
 
     <!-- Pictures of pets -->
-    <h2 class="page-section-heading text-center text-uppercase">FEW OF OUR HOSTS WITH PETS</h2>
+    <h2 class="page-section-heading text-center">Some members of our community with their adopted pets</h2>
     <!-- Icon Divider-->
     <div class="divider-custom divider-light">
         <div class="divider-custom-line"></div>
         <div class="divider-custom-icon"><i class="fa fa-paw"></i></div>
         <div class="divider-custom-line"></div>
     </div>
-    <!-- <div id="portfolio">
-        <div class="container-fluid p-0">
-            <div class="row no-gutters">
-                <div class="col-lg-4 col-sm-6">
-                    <a class="portfolio-box" href="http://www.arizonapetvet.com/blog/wp-content/uploads/2020/02/Responsible-Pet-Owners.jpeg"></a>
-                        <img class="img-fluid" src="http://www.arizonapetvet.com/blog/wp-content/uploads/2020/02/Responsible-Pet-Owners.jpeg" alt="" />
-                    </a>
-                </div>
-                <div class="col-lg-4 col-sm-6">
-                    <a class="portfolio-box" href="https://danielcameronmd.com/wp-content/uploads/2017/08/BoyDog-DC-web.jpg">
-                        <img class="img-fluid" src="https://danielcameronmd.com/wp-content/uploads/2017/08/BoyDog-DC-web.jpg" alt="" />
-                    </a>
-                </div>
-                <div class="col-lg-4 col-sm-6">
-                    <a class="portfolio-box" href="https://i.dailymail.co.uk/i/pix/2015/01/15/24B7C5FE00000578-2911381-image-a-3_1421318775159.jpg">
-                        <img class="img-fluid" src="https://i.dailymail.co.uk/i/pix/2015/01/15/24B7C5FE00000578-2911381-image-a-3_1421318775159.jpg" alt="" />
-                    </a>
-                </div>
-                <div class="col-lg-4 col-sm-6">
-                    <a class="portfolio-box" href="https://cdn.cdnparenting.com/articles/2019/02/21150952/687222649-H.jpg">
-                        <img class="img-fluid" src="https://cdn.cdnparenting.com/articles/2019/02/21150952/687222649-H.jpg" alt="" />
-                    </a>
-                </div>
-                <div class="col-lg-4 col-sm-6">
-                    <a class="portfolio-box" href="https://www.advantagepetcare.com.au/sites/g/files/adhwdz311/files/styles/paragraph_image/public/2020-03/cat_owner_cuddles_cat_1280x852_1.jpg?itok=zqyHS-lg">
-                        <img class="img-fluid" src="https://www.advantagepetcare.com.au/sites/g/files/adhwdz311/files/styles/paragraph_image/public/2020-03/cat_owner_cuddles_cat_1280x852_1.jpg?itok=zqyHS-lg" alt="" />
-                    </a>
-                </div>
-                <div class="col-lg-4 col-sm-6">
-                    <a class="portfolio-box" href="https://thehorseaholic.com/wp-content/uploads/2015/12/bigstock-Young-happy-woman-on-her-horse-51297898.jpg">
-                        <img class="img-fluid" src="https://thehorseaholic.com/wp-content/uploads/2015/12/bigstock-Young-happy-woman-on-her-horse-51297898.jpg" alt="" />
-                    </a>
-                </div>
-            </div>
-        </div>
-    </div> -->
+    
 
     <div class="outer-hex">
       <section class="hexagon-gallery">
@@ -112,5 +117,7 @@
         <div class="hex"><img src="http://cdn.shopify.com/s/files/1/1057/6184/articles/How-To-Be-A-Responsible-Pet-Owner_1024x1024.jpg?v=1449584987" alt="some"></div>
       </section>
     </div>
+
+    
 
 <%- include('./partials/footer') %>
